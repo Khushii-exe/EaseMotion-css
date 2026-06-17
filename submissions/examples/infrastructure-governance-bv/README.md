@@ -1,8 +1,8 @@
 # Technical Specifications Manual
 
-## Phase 75: Identity & Access Management Center
+## Phase 73: Infrastructure Governance Dashboard
 
-Welcome to the flagship enterprise documentation for the **Identity & Access Management Center**. This manual contains detailed outlines of the architectural design decisions, UI layout composition strategies, responsive breakpoints, accessibility considerations, and pure-CSS transition implementations that govern this system.
+Welcome to the flagship enterprise documentation for the **Infrastructure Governance Dashboard**. This manual contains detailed outlines of the architectural design decisions, UI layout composition strategies, responsive breakpoints, accessibility considerations, and pure-CSS transition implementations that govern this system.
 
 ---
 
@@ -10,7 +10,7 @@ Welcome to the flagship enterprise documentation for the **Identity & Access Man
 
 ### Objective
 
-The core objective of **Identity & Access Management Center** is to build a premium, highly responsive engineering console demonstrating:
+The core objective of **Infrastructure Governance Dashboard** is to build a premium, highly responsive engineering console demonstrating:
 
 - High performance metrics tracking without expensive client-side script allocations.
 - A dark mode aesthetic with premium neon-accent visual cues.
@@ -74,9 +74,9 @@ The interface uses a two-column sidebar layout suited for desktop layouts, adapt
 
 This dashboard uses custom HSL variables to maintain design consistency and theme flexibility:
 
-- **Primary Color (`--primary-hsl`)**: `hsl(280, 85%, 60%)` - Primary branding accents.
-- **Secondary Color (`--secondary-hsl`)**: `hsl(190, 90%, 50%)` - Secondary metrics lines.
-- **Accent Color (`--accent-hsl`)**: `hsl(10, 90%, 55%)` - Callouts and interactive states.
+- **Primary Color (`--primary-hsl`)**: `hsl(270, 80%, 60%)` - Primary branding accents.
+- **Secondary Color (`--secondary-hsl`)**: `hsl(180, 85%, 45%)` - Secondary metrics lines.
+- **Accent Color (`--accent-hsl`)**: `hsl(45, 95%, 50%)` - Callouts and interactive states.
 - **Background Color (`--bg-dark`)**: `#07090e` - Dark background layout.
 - **Card Background (`--bg-card`)**: `rgba(14, 18, 28, 0.7)` - Glassmorphism panels.
 
